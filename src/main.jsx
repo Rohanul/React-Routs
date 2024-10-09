@@ -21,10 +21,10 @@ import AdminManageUsers from "./admin/AdminManageUsers.jsx";
 import AdminRouts from "./routs/AdminRouts.jsx";
 import Product from "./Pages/Product.jsx";
 import ProductsDetail from "./ProductsrRout/ProductsDetails.jsx";
-import Profile from "./Pages/profile.jsx";
 import UserProfile from "./user/UserProfile.jsx";
 import UserOrder from "./user/UserOrder.jsx";
 import AdminCategories from "./admin/AdminChategories.jsx";
+import MyProfile from "./Pages/MyProfile.jsx";
 
 const router = createBrowserRouter([
   {
@@ -57,8 +57,8 @@ const router = createBrowserRouter([
         element: <SignIn />,
       },
       {
-        path: "profile",
-        element: <Profile />,
+        path: "my-profile",
+        element: <MyProfile />,
       },
       {
         path: "/dashboard/user",

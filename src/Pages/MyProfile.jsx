@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 
-const Profile = () => {
+const MyProfile = () => {
   const { state } = useLocation();
 
   return (
@@ -41,4 +41,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default MyProfile;

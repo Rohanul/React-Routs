@@ -1,8 +1,8 @@
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
+import MyProfile from "./Pages/MyProfile";
 import Proudct from "./Pages/Product";
-import Profile from "./Pages/profile";
 import SignUp from "./Pages/SignIn";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Proudct />
       <Contact />
       <SignUp />
-      <Profile />
+      <MyProfile />
     </div>
   );
 }
